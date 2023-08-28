@@ -1,0 +1,18 @@
+{
+    "name": "imycroft/wamel",
+    "description": "A light php framework for education purposes",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hafid Walid",
+            "email": "w.hafid@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {}
+}
