@@ -5,8 +5,8 @@ require 'functions.php';
 $uri = $_SERVER['REQUEST_URI'];
 
 $routes = [
-    '/' => 'views/home.php',
-    '/about' => 'views/about.php',
+    '/' => 'controllers/HomeController.php',
+    '/about' => 'controllers/AboutController.php',
 ];
 
 if (array_key_exists($uri, $routes)) {
