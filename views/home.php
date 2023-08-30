@@ -8,6 +8,7 @@
 <body>
     <?php require 'components/navbar.php'; ?>
     <h1> This is home page </h1>
+    <h2> Hello <?= $user ?></h2>
 </body>
 </html>
 
